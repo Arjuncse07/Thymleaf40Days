@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Handler</title>
+</head>
+<body>
+  <h1>This are the service provide by LearnCodeWith Durgesh</h1>
+
+<!--<footer id="hostTag" th:replace="footer::footer1">-->
+<footer id="hostTag" th:replace="footer::footer1(${title},${subtitle},${name})">
+
+</footer>
+</body>
+</html>
